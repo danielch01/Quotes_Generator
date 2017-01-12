@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+<head>
+	<title>Inspirational Quotes</title>
+	<meta charset="utf-8">
+
+	<!-- Angular modules -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-resource.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- Local Javascript Files -->
+	<script type="text/javascript" src="app.module.js"></script>
+	<script type="text/javascript" src="app.config.js"></script>
+
+
+	<script type="text/javascript" src="quotes-list/quotes-list.module.js"></script>
+	<script type="text/javascript" src="quotes-list/quotes-list.components.js"></script>
+	
+</head>
+<body>
+
+<div ng-view></div>
+
+</body>
+
+</html>

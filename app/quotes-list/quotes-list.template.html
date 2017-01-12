@@ -1,0 +1,11 @@
+<div class="container" style="width: 60%">
+	<div class="jumbotron">
+		<div ng-repeat="saying in $ctrl.quotes" class="text-center" style="padding: 5em 0;">
+			<h1>"{{saying.quote}}"</h1>
+			<p>{{saying.name}}</p>
+			<br>
+			<a class="twitter-share-button"
+  ng-href="https://twitter.com/intent/tweet?text={{saying.quote}}%20-%20{{saying.name}}"><img alt="follow me on twitter" src="//login.create.net/images/icons/user/twitter_30x30.png" border=0></a>
+		</div>
+	</div>
+</div>
